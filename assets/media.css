@@ -1,0 +1,117 @@
+
+@media screen and (max-width: 1150px) {
+    .main{
+        height: auto;
+    }
+    .bg-color{
+        background-color: white;
+    }
+    .flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .two_tagline, .one_tagline{
+        display: none;
+    }
+    .frame{
+        margin: 0;
+    }
+    .image_holder{
+        width: auto;
+        text-align: center;
+    }
+    .image_holder img{
+        border: 0;
+        width: 90px;
+        padding: 15px;
+    }
+    .form{
+        border-radius: 0;
+        background-color: transparent;
+        box-shadow: none;
+        padding: 0;
+        float: right;
+        min-height: 100px;
+        min-width: 300px;
+        width: auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .form .input_box, .pass_box{
+        border: 0;
+        outline: 1px solid #dddfe2;
+        background-color: #f5f6f7;
+        border-radius: 5px;
+        padding: 14px 16px; 
+        margin-bottom: 10px;
+        width: 85%;
+    }
+    .form .input_box:focus, .pass_box:focus{
+        outline: 0;
+        border: 1px solid #1877f2;
+        opacity: 75%;
+    }
+    .forget{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .rule{
+        display: inline-block;
+        width: 40%;
+        margin-right: 10px;
+        /* for_mob */
+    }
+    .mob_only{
+        display: inline;
+    }
+    .for_mob{
+        display: inline-block;
+        width: 40%;
+        margin-left: 10px;
+        opacity: 50%;
+    }
+    .bg-green{
+        background-color: transparent;
+    }
+    .create{
+        display: block;
+        text-align: center;
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 10px;
+        color: black;
+        font-size: 15px;
+        font-weight: normal;
+        border: 0;
+        outline: 1px solid #bec3c9;
+        border-radius: 5px;
+        padding: 8px 15px; 
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .submit:hover{
+        background-color: #1876f27b;
+    }
+    .create:hover{
+        border-top: 2px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        background-color: #75ab4b;
+    }
+    .form .input_box, .pass_box{
+        border: 0;
+        outline: 0;
+        border-bottom: 1px solid #dddfe2;
+        /* outline: 1px solid grey; */
+        border-radius: 0px;
+        padding: 14px 16px; 
+        margin-bottom: 10px;
+        width: 85%;
+    }
+    .form .input_box:focus, .pass_box:focus{
+        outline: 1px solid #1877f2;
+        border: 0;
+        opacity: 75%;
+    }
+}

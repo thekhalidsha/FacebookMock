@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/media.css">
+    <title>Facebook - Login & SignUp</title>
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="">
+    <div class="main flex bg-color">
+        <div class="frame">
+            <div class="image_holder">
+                <img src="./images/Facebook-Logo.png" alt="Facebook Logo" >
+                <p class="one_tagline">Facebook helps you connect and share with the people in your life.</p>
+            </div>
+        </div>
+        <div class="frame_two">
+            <div class="form">
+                <input class="input_box" type="text" placeholder="Email address or phone number">
+                <div class="">
+                    <input id="passField" class="pass_box" type="password" placeholder="Password" onkeyup="PassEye()">
+                    <span id="eyeShow" class="hidden" style="position: absolute;margin-top: 13px;margin-left: -23px;"><i id="eyeIcon" class="fa fa-eye-slash" onclick="showEye()"></i></span>
+                </div>
+                <input class="submit main_color" type="submit" value="Log In">
+                <a class="forget" href="./index.html">Forgotten password?</a>
+                <sub><hr class="rule"></sub><span class="mob_only"> or <sub><hr class="mob_only for_mob"></sub></span>
+                <input class="create bg-green" type="submit" onclick="PopupModal()" value="Create new account">
+            </div>
+            <p class="two_tagline"><b>Create a Page</b> for a celebrity, brand or business.</p>
+        </div>
+        <div id="ModalContainer" class="hidden modal">
+            <div class="blurModal" onclick="Close()"></div>
+            <div class="ModalContainer">
+                <div class="p-1016">
+                    <p class="h1">Sign Up <span onclick="Close()" class="close">&#10005;</span></p>
+                    <p class="h1_tagline">It's quick and easy</p>
+                </div>
+                <hr class="ModalRule">
+                <form action="" id="create_form">
+                    <div class="p-1016 ModalForm">
+                        <div class="cols">
+                            <input class="modalInput" type="text" placeholder="First Name">
+                            <input class="modalInput" type="text" placeholder="Surname">
+                        </div>
+                        <input class="modalInput" type="text" placeholder="Mobile number or email address">
+                        <input class="modalInput" type="text" placeholder="New password">
+                        <p class="modalFormText">Date of birth</p>
+                        <span class="colsx">
+                            <input class="modalInput3" type="text" placeholder="Date">
+                            <input class="modalInput3" type="text" placeholder="Day">
+                            <input class="modalInput3" type="text" placeholder="Year">
+                        </span>
+                        <p class="modalFormText">Gender</p>
+                        <span class="colsx">
+                            <span class="btn modalInput2">Male<input type="radio" name="gender"></span>
+                            <span class="btn modalInput2">Female<input type="radio" name="gender"></span>
+                        </span>
+                        <p class="modalFormText">
+                            People who use our service may have uploaded your contact information to Facebook. <a href="">Learn more</a>. <br><br>
+                            By clicking Sign Up, you agree to our <a href="">Terms</a>, <a href="">Privacy Policy</a> and <a href="">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.
+                        </p>
+                        <input class="signup_btn submit bg-green" type="submit" value="Sign Up">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="./assets/script.js"></script>
+    <!-- &#128065; &#x1F441; Eyes Entity fa fa-eye-slash-->
+</body>
+</html>

@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+}
+.main{
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 20%; */
+    font-family:Arial, Helvetica, sans-serif
+}
+.bg-color{
+    background-color: #f0f2f5;
+}
+.absolute{
+    position: absolute;
+}
+.p-1016{
+    padding: 10px 16px; 
+}
+.hidden{
+    display: none !important;
+}
+.main_color{
+    background-color: #1877f2;
+}
+.text-green{
+    color: #42b72a;
+}
+.bg-green{
+    background-color: #42b72a;
+}
+.outline{
+    outline: 1px solid #5095ea
+}
+.inline{
+    display: inline;
+}
+.block{
+    display: block;
+}
+.flex{
+    display: flex;
+}
+.frame{
+    width: 40%;
+} 
+.form{
+    width: 60%;
+}
+.frame{
+    margin-left: 20px;
+}
+.image_holder{
+    width: 450px;
+    /* float: right; */
+    font-size: 25px;
+    font-weight: 300;
+    direction: ltr;
+}
+.image_holder img{
+    width: 300px;
+}
+.form{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px  #888888;
+    padding: 10px 0;
+    float: right;
+    min-height: 100px;
+    min-width: 300px;
+    width: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form .input_box{
+    border: 0;
+    margin: 0 auto;
+    outline: 1px solid #dddfe2;
+    /* outline: 1px solid grey; */
+    border-radius: 5px;
+    padding: 14px 16px; 
+    margin-bottom: 10px;
+    width: 85%;
+    min-height: 15px;
+}
+.form .input_box:focus, .pass_box:focus{
+    outline: 0;
+    border: 1px solid #1877f2;
+    opacity: 75%;
+}
+.pass_box{
+    border: 0;
+    margin: 0 auto;
+    outline: 1px solid #dddfe2;
+    /* outline: 1px solid grey; */
+    border-radius: 5px;
+    padding: 14px 16px; 
+    margin-bottom: 10px;
+    width: 85%;
+    min-height: 15px;
+}
+
+.submit, .create{
+    display: block;
+    text-align: center;
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    padding: 14px 16px; 
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.create{
+    width: auto;
+    margin: 20px auto; 
+}
+.submit:hover{
+    width: 93%;
+}
+.create:hover{
+    background-color: #348f21;
+}
+.forget{
+    font-size: 15px;
+    text-decoration: none;
+}
+.forget:hover{
+    text-decoration: underline;
+}
+.rule{
+    width: 93%;
+    opacity: 50%;
+}
+.two_tagline{
+    /* padding: 30px; */
+    text-align: center;
+    font-size: small;
+}
+.mob_only{
+    display: none;
+}
+#eyeIcon:hover{
+    padding: 1px;
+    border-radius: 50%;
+    background-color: #e6e6e6;
+}
+
+.modal{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blurModal{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    opacity: 70%;
+}
+.ModalContainer{
+    position: absolute;
+    opacity: 100%;
+    min-width: 25%;
+    max-width: 30%;
+    min-height: 70%;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px ;
+    border-radius: 10px;
+    
+}
+.h1{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.h1_tagline{
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    opacity: 60%;
+    font-size: small;
+}
+.ModalRule{
+    opacity: 50%;
+}
+.close{
+    text-align: center;
+    float: right;
+    font-size: 25px;
+    min-width: 30px;
+}
+.close:hover{
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+.ModalForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cols{
+    margin: 0 auto;
+}
+
+.cols .modalInput{
+    padding: 10px;
+    width: 43%;
+    margin: 5px auto;
+}
+.modalInput{
+    padding: 10px;
+    width: 93%;
+    margin: 5px auto;
+}
+.modalFormText{
+    width: 100%;
+    text-align: justify;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 11px;
+    
+}
+.modalInput2{
+    /* display:table-row; */
+    padding: 10px;
+    width: calc(85%/2);
+    margin: 5px auto;
+}
+.modalInput3{
+    /* display:table-row; */
+    padding: 10px;
+    width: calc(79%/3);
+    margin: 5px auto;
+}
+.colsx{
+    display: flex;
+    width: 100%;
+}
+.btn{
+    border: 1px solid #00000068;
+    border-radius: 2px;
+}
+.btn input{
+    float: right;
+}
+.signup_btn{
+    width: 50%;
+    padding: 10px 12px;
+}
+.signup_btn:hover{
+    width: 48%;
+    
+}
+/* .eye_class{
+    position: absolute;
+    margin-top: 13px;
+    margin-left: -25px;
+} */
+.eye_class{
+    position: absolute;margin-top: 13px;margin-left: -23px;}
